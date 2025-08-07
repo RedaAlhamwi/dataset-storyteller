@@ -11,7 +11,7 @@ from PIL import Image
 
 # ✅ Initialize OpenAI client
 client = OpenAI(
-    api_key="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"
+    api_key="sk-...."
 )
 # ✅ Function: Basic EDA summary with numeric & categorical features
 def basic_eda_summary(df):
@@ -142,3 +142,4 @@ interface = gr.Interface(
 )
 
 interface.launch()
+
